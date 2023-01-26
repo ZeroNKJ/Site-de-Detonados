@@ -1,0 +1,107 @@
+/* Nav */
+
+body {
+    font-size: 'Roboto', 'sans-serif';
+}
+
+.row {
+    margin: 0;
+}
+
+.nav-container {
+    padding: 70px 0;
+}
+
+header, .navbar {
+    background-color: rgb(62, 62, 62);
+}
+
+#nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand:hover {
+    padding: 0;
+    color: white;
+}
+
+#navbar-links a {
+    color: white;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 1rem .8rem;
+
+}
+
+
+
+/* Detonado do X e do Zero */
+
+p.introp {
+    margin: 8px;
+    text-indent: 2ch;
+    font-size: 22px;
+  }
+
+p.XStage {
+    margin: 8px;
+    text-indent: 2ch;
+    font-size: 18px;
+}
+
+p.ZStage {
+    margin: 8px;
+    text-indent: 2ch;
+    font-size: 18px;
+}
+
+h1 {
+    margin: 8px;
+    text-indent: 18ch;
+    font-size: 40px;
+}
+
+h2 {
+    margin: 8px;
+    font-size: 28px
+}
+
+h3 {
+    margin: 8px;
+    font-size: 38px
+}
+
+img {
+    margin: 5px;
+}
+
+a {
+    font-size: 20px;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: center;
+}
+
+p.footerp {
+    color: white;
+}
+.footer-div {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    color: white;
+}
