@@ -1,41 +1,35 @@
-/* Nav */
+/* Layout responsivo */
 
-body {
-    font-size: 'Roboto', 'sans-serif';
+#corpo-det {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
 }
 
-.row {
-    margin: 0;
+img.stageprint {  
+    width: 95%;
 }
 
-.nav-container {
-    padding: 70px 0;
+img.select-character {
+    width: 80%;
 }
 
-header, .navbar {
-    background-color: rgb(62, 62, 62);
+/* Navbar */
+
+.navbar {
+    background-color: rgb(139, 139, 139);
 }
 
-#nav-container {
-    padding-top: 0;
-    padding-bottom: 0;
+.modal {
+    width: 300px;
 }
 
-.navbar-brand:hover {
-    padding: 0;
-    color: white;
+.modal-content {
+    width: 300px;
 }
 
-#navbar-links a {
-    color: white;
+.list-group-item:hover {
+    background-color: rgba(176, 176, 176, 0.653)!important;
 }
-
-.navbar-expand-lg .navbar-nav .nav-link {
-    padding: 1rem .8rem;
-
-}
-
-
 
 /* Detonado do X e do Zero */
 
@@ -59,7 +53,6 @@ p.ZStage {
 
 h1 {
     margin: 8px;
-    text-indent: 18ch;
     font-size: 40px;
 }
 
@@ -70,7 +63,7 @@ h2 {
 
 h3 {
     margin: 8px;
-    font-size: 38px
+    font-size: 28px
 }
 
 img {
