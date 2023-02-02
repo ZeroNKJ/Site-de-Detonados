@@ -37,18 +37,21 @@ p.introp {
     margin: 8px;
     text-indent: 2ch;
     font-size: 22px;
+    text-align: justify;
   }
 
 p.XStage {
     margin: 8px;
     text-indent: 2ch;
     font-size: 18px;
+    text-align: justify;
 }
 
 p.ZStage {
     margin: 8px;
     text-indent: 2ch;
     font-size: 18px;
+    text-align: justify;
 }
 
 h1 {
