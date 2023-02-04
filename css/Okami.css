@@ -1,0 +1,74 @@
+/* Layout responsivo */
+
+#corpo-det {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+}
+
+img.okami {  
+    width: 70%;
+}
+
+
+/* Navbar */
+
+.navbar {
+    background-color: rgb(139, 139, 139);
+}
+
+.modal {
+    width: 300px;
+}
+
+.modal-content {
+    width: 300px;
+}
+
+.list-group-item:hover {
+    background-color: rgba(176, 176, 176, 0.653)!important;
+}
+
+/* Okami Detonado */
+
+p.introp {
+    margin: 8px;
+    text-indent: 2ch;
+    font-size: 22px;
+  }
+
+p.runp {
+    margin: 8px;
+    text-indent: 2ch;
+    font-size: 18px;
+    text-align: justify;
+  }
+
+  h1 {
+    margin: 8px;
+    font-size: 36px;
+ }
+
+.container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 200px 200px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Footer */
+
+footer {
+    background-color: rgb(35, 35, 35);
+    display: flex;
+    justify-content: center;
+}
+
+p.footerp {
+    color: white;
+}
+.footer-div {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    color: white;
+}
