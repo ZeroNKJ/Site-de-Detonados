@@ -9,6 +9,10 @@ img.okami {
     width: 70%;
 }
 
+img.beads {
+    width: 85%;
+}
+
 
 /* Navbar */
 
@@ -43,7 +47,7 @@ p.runp {
     text-align: justify;
   }
 
-  h1 {
+h1 {
     margin: 8px;
     font-size: 36px;
  }
@@ -55,6 +59,17 @@ p.runp {
     justify-content: center;
     margin-top: 20px;
 }
+
+table {
+    text-align: center;
+       
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
 
 /* Footer */
 
