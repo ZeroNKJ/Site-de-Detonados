@@ -6,7 +6,7 @@
 }
 
 img.stageprint {  
-    width: 70%;
+    width: 95%;
 }
 
 img.select-character {
@@ -37,26 +37,23 @@ p.introp {
     margin: 8px;
     text-indent: 2ch;
     font-size: 22px;
-    text-align: justify;
   }
 
 p.XStage {
     margin: 8px;
     text-indent: 2ch;
     font-size: 18px;
-    text-align: justify;
 }
 
 p.ZStage {
     margin: 8px;
     text-indent: 2ch;
     font-size: 18px;
-    text-align: justify;
 }
 
 h1 {
     margin: 8px;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 h2 {
@@ -77,12 +74,23 @@ a {
     font-size: 20px;
 }
 
-.container {
-    display: grid;
-    align-items: center;
-    grid-template-columns: 200px 200px;
-    justify-content: center;
-    margin-top: 20px;
+/* Cards */
+
+.card-img {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-title {
+    text-align: center;
+}
+
+.card {
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 15px;
+    border-color: black;
+    border-width: 2px;
 }
 
 /* Footer */
