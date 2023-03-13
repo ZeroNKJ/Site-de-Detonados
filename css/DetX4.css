@@ -1,18 +1,12 @@
-/* Layout responsivo */
-
-#corpo-det {
-    background-color: rgb(255, 255, 255);
-    height: 100%;
-}
-
-img.stageprint {  
+.stageprint {  
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 95%;
+    width: 70%;
+    padding-bottom: 25px;
 }
 
-img.select-character {
+.select-character {
     width: 80%;
 }
 
@@ -36,22 +30,31 @@ img.select-character {
 
 /* Detonado do X e do Zero */
 
-p.introp {
+.title {
+
+    text-align: center;
+}
+
+.introp {
     margin: 8px;
     text-indent: 2ch;
     font-size: 22px;
+    text-align: justify;
   }
 
-p.XStage {
+.XStage {
     margin: 8px;
     text-indent: 2ch;
     font-size: 18px;
+    text-align: justify;
 }
 
-p.ZStage {
+.ZStage {
     margin: 8px;
     text-indent: 2ch;
     font-size: 18px;
+    text-align: justify;
+    
 }
 
 h1 {
@@ -93,7 +96,9 @@ a {
     margin-left: 10px;
     margin-bottom: 15px;
     border-color: black;
-    border-width: 2px;
+    border-width: 4px;
+    border-radius: 15px;
+    width: 90%;
 }
 
 /* Footer */
